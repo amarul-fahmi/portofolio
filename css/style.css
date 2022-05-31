@@ -1,0 +1,56 @@
+/* import fonts from fonts.css */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(partials/_variables.css);
+
+/* start navigation */
+a.navbar-brand{
+    padding: 0 2rem 0 2rem;
+}
+nav.navbar{
+    padding: 1rem 5rem;
+}
+a.nav-link{
+    font: normal 500 15px/2px var(--satisfy);
+    
+    text-transform: uppercase;
+    
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+a.nav-link.active{
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+a.nav-link :hover{
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+/* Banner Area */
+section.site-banner{
+    background: url(/img/banner/home-banner.png)no-repeat 0% 50%;
+}
+h3.title-text{
+    padding-top: 35%;
+    font-weight: 500;
+}  
+h3.title-text::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-1);
+}
+
+
+
