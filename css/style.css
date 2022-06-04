@@ -3,6 +3,9 @@
 
 /* css variables */
 @import url(partials/_variables.css);
+/* import global styling */
+@import url(/css/partials/_global.css);
+
 
 /* start navigation */
 a.navbar-brand{
@@ -49,8 +52,17 @@ h3.title-text::after{
     background: black;
     display: inline-block;
     margin-left: 5%;
-    transform: translateY(-1);
+    transform: translateY(-10);
 }
-
+h1.title-text{
+    font-size: 3rem;
+}
+h4.title-text{
+    font-size: 1.5rem;
+}
+img.img-fluid{
+    padding: 7rem 0;
+    width: 90rem;
+}
 
 
